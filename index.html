@@ -39,26 +39,107 @@ cursor: default;
 cursor: pointer;
 }
 .googlesearch {
-   margin-left: 600px;
-   margin-top: 50px;
+   margin-left: 570px;
+   margin-top: 20px;
+   background-color: #F2F2F2;
+   border: none;
+   font-size: 0.87em;
+   padding: 10px 10px;
+   padding-left: 16px;
+   padding-right: 16px;
+   border-radius: 4px;
    color:#585858;
 }
 .lucky {
    margin-left: 10px;
-   margin-top: 50px;
+   margin-top: -20px;
+   background-color: #F2F2F2;
+   border: none;
+   font-size: 0.87em;
+   padding: 10px 10px;
+   padding-left: 16px;
+   padding-right: 16px;
+   border-radius: 4px;
    color:#585858;
 }
 .buttons {
     padding: 0;
-    border-top: none;
+    margin-top: 20px;
 }
 .googlesearch:hover {
-  box-shadow: 1px 1px 5px lightgrey;
+  box-shadow: 1px 1px 1px grey;
+  background-color: F6F6F6;
+  color: black;
   cursor: pointer;
 }
 .lucky:hover {
-  box-shadow: 1px 1px 5px lightgrey;
+    box-shadow: 1px 1px 1px grey;
+  background-color: F6F6F6;
+  color: black;
   cursor: pointer;
+}
+.navbar {
+font-family: Arial, Helvetica, sans-serif;
+color: #585858;
+font-size: 0.8em;
+}
+.a {
+  margin-top: -362px;
+  margin-left: 18px;
+}
+.a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.b {
+  margin-top: -27px;
+  margin-left: 70px;
+}
+.b:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.c {
+  margin-top: -27px;
+  margin-left: 1182px;
+}
+.c:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.d {
+  margin-top: -28px;
+  margin-left: 1230px;
+}
+.d:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.apps {
+  margin-top: -33px;
+  margin-left: 1291px;
+  color: #585858;
+}
+.apps:hover {
+  color: black;
+  cursor: pointer;
+}
+.navbar2 {
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+background-color: #3986e3;
+border: none;
+padding: 8px 8px;
+padding-left: 13px;
+padding-right: 13px;
+border-radius: 2px;
+text-align: center;
+font-size: 0.8em;
+margin-left: 1335px;
+margin-top: -27px;
+}
+.navbar2:hover{
+    box-shadow: 0.5px 0.5px 0.5px lightgray;
 }
 </style>
 <!DOCTYPE html>
@@ -87,5 +168,15 @@ cursor: pointer;
             <button class="googlesearch">Google Search</button>
             <button class="lucky">I'm Feeling Lucky</button>
         </div>
+        <div class="navbar">
+            <p class="a">About</p>
+            <p class="b">Store</p>
+            <p class="c">Gmail</p>
+            <p class="d">Images</p>
+            <div class="apps">
+            <i class="material-icons" style="font-size:24px;">apps</i>
+        </div>
+        </div>
+        <div><button class="navbar2"><strong>Sign in</strong></button></div>
         </body>
 </html>
